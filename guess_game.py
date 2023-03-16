@@ -5,12 +5,12 @@ import random
 # 3.提示區間
 
 
-x = random.randint(1, 50)
+x = random.randint(1, 100)
 # 偷看答案
 # print(x)
 
 win = False
-start, end = 1, 50
+start, end = 1, 100
 # 總共五次可猜
 for i in range(5):
     y = eval(input(f'[{i+1}/5]請猜一個數字(1~50之間):'))
